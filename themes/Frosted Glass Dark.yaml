@@ -1,5 +1,5 @@
 # Frosted Glass Dark
-# ver. 1.3.1 - (2026-02-23) 
+# ver. 1.3.2 - (2026-02-23) 
 
 Frosted Glass Dark:
   card-mod-theme: 'Frosted Glass Dark'
@@ -10,8 +10,7 @@ Frosted Glass Dark:
   # =========================
   # HEADER (Top Bar)
   # =========================
-  app-header-backdrop-filter: 'blur(8px) saturate(1.1)'
-  app-header-background-color: 'rgba(30, 30, 30, 0.01)'
+  app-header-background-color: 'rgba(30, 30, 30, 0.85)'
   app-header-text-color: 'rgba(240, 243, 255, 0.95)'
   app-header-edit-background-color: 'rgba(30, 33, 54, 0.8)'
   app-header-edit-text-color: 'rgba(234, 235, 238, 0.98)'
@@ -29,8 +28,7 @@ Frosted Glass Dark:
   # =========================
   # DIALOGS
   # =========================
-  ha-dialog-surface-backdrop-filter: 'blur(8px)'                  # 1.2 Glass – same blur as cards
-  ha-dialog-surface-background: 'rgba(30, 30, 30, 0.7)'
+  ha-dialog-surface-background: 'rgba(30, 30, 30, 0.92)'
   dialog-box-shadow: '0 12px 20px rgba(0, 0, 0, 0.25)'
   paper-dialog-background-color: 'rgba(30, 30, 30, 0.7)'
   mdc-dialog-scrim-color: 'rgba(0, 0, 0, 0.8)'
@@ -279,11 +277,9 @@ Frosted Glass Dark:
       --token-color-light-blue: rgb(var(--token-rgb-light-blue));
     }
 
-    /* SIDEBAR BLUR */
+    /* SIDEBAR */
     .mdc-drawer .mdc-drawer__content {
-      backdrop-filter: blur(8px) saturate(1.1) !important;
-      -webkit-backdrop-filter: blur(8px) saturate(1.1) !important;
-      background: rgba(25, 28, 45, 0.8) !important;
+      background: rgba(25, 28, 45, 0.9) !important;
       box-shadow: var(--ha-card-glass-inset-shadow) !important;
     }
 
@@ -304,39 +300,18 @@ Frosted Glass Dark:
 
     /* LABEL BADGE */
     ha-label-badge {
-      --label-badge-background-color: rgba(60, 60, 78, 0.28) !important;
-      backdrop-filter: blur(10px) saturate(1.1) !important;
-      -webkit-backdrop-filter: blur(10px) saturate(1.1) !important;
+      --label-badge-background-color: rgba(60, 60, 78, 0.85) !important;
       --label-badge-text-color: rgba(234, 235, 238, 0.9) !important;
       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.10) !important;
       border: 0.5px solid rgba(234, 235, 238, 0.22) !important;
     }
 
     /* INPUTS */
-    input, ha-textfield {
-      background: rgba(30, 33, 54, 0.7) !important;
-      backdrop-filter: blur(6px) !important;
-      -webkit-backdrop-filter: blur(6px) !important;
-      border-radius: var(--token-size-radius-small);
-      border: none !important;
-      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.09) !important;
-    }
-    ha-select {
+    input, ha-textfield, ha-select {
       background: rgba(30, 33, 54, 0.7) !important;
       border-radius: var(--token-size-radius-small);
       border: none !important;
       box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.09) !important;
-      position: relative;
-    }
-    ha-select::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      backdrop-filter: blur(6px);
-      -webkit-backdrop-filter: blur(6px);
-      border-radius: inherit;
-      z-index: -1;
-      pointer-events: none;
     }
 
     /* Custom text divider row size fix */
