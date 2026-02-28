@@ -1,5 +1,5 @@
 # Frosted Glass Dark
-# ver. 1.3.4 - (2026-02-28)
+# ver. 1.3.5 - (2026-02-28)
 
 Frosted Glass Dark:
   card-mod-theme: 'Frosted Glass Dark'
@@ -10,8 +10,7 @@ Frosted Glass Dark:
   # =========================
   # HEADER (Top Bar)
   # =========================
-  app-header-backdrop-filter: 'blur(8px) saturate(1.1)'
-  app-header-background-color: 'rgba(30, 30, 30, 0.01)'
+  app-header-background-color: 'rgba(30, 30, 30, 0.85)'
   app-header-text-color: 'rgba(240, 243, 255, 0.95)'
   app-header-edit-background-color: 'rgba(30, 33, 54, 0.8)'
   app-header-edit-text-color: 'rgba(234, 235, 238, 0.98)'
