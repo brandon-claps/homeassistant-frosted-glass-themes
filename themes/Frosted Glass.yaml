@@ -9,7 +9,8 @@ Frosted Glass:
       # =========================
       # HEADER (Top Bar)
       # =========================
-      app-header-background-color: 'rgba(234, 235, 238, 0.88)'
+      app-header-backdrop-filter: 'blur(6px) saturate(1.2)'
+      app-header-background-color: 'rgba(234, 235, 238, 0.1)'
       app-header-text-color: 'rgba(19, 21, 54, 0.95)'
       app-header-edit-background-color: 'rgba(255, 255, 255, 0.8)'
       app-header-edit-text-color: 'rgba(19, 21, 54, 0.98)'
@@ -500,7 +501,8 @@ Frosted Glass:
       # =========================
       # HEADER (Top Bar)
       # =========================
-      app-header-background-color: 'rgba(30, 30, 30, 0.85)'
+      app-header-backdrop-filter: 'blur(8px) saturate(1.1)'
+      app-header-background-color: 'rgba(30, 30, 30, 0.01)'
       app-header-text-color: 'rgba(240, 243, 255, 0.95)'
       app-header-edit-background-color: 'rgba(30, 33, 54, 0.8)'
       app-header-edit-text-color: 'rgba(234, 235, 238, 0.98)'
